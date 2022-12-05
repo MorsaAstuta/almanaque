@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head></head>
+    <meta charset="UTF=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almanaque Suburbano</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <nav class="navegacion">
+        <div class="almanaque">
+            <p><a class="candidate" href="../index.html">Índice del<br>almanaque</a></p>
+        </div>
+        <div class="guisantes">
+            <p><a class="candidate" href="guisantes.html">Guisantes</a></p>
+        </div>
+        <div class="angiospermas">
+            <p><a class="candidate" href="angiospermas.html">Angiospermas</a></p>
+        </div>
+        <div class="hortalizas">
+            <p class="current">Hortalizas</p>
+        </div>
+        <div class="frutas">
+            <p><a class="candidate" href="frutas.html">Frutas y<br>troncos</a></p>
+        </div>
+        <div class="setas">
+            <p><a class="candidate" href="setas.html">Setas</a></p>
+        </div>
+        <div class="otros">
+            <p><a class="candidate" href="otros.html">Otros</a></p>
+        </div>
+        <audio controls autoplay loop>
+            <source src="../sound/hort.mp3" autostart="true" loop="true" hidden="true" type="audio/mp3">
+        </audio>
+    </nav>
+    <nav class="seeds">
+        <div class="paquete">
+            <img src="../images/nuez.png" id="nut">
+        </div>
+        <div class="paquete">
+            <img src="../images/papapum.png" id="patata">
+        </div>
+        <div class="paquete">
+            <img src="../images/nuez_cascararrabias.png" id="cascara">
+        </div>
+        <div class="paquete">
+            <img src="../images/calabaza.png" id="pump">
+        </div>
+        <div class="paquete">
+            <img src="../images/coltapulta.png" id="col">
+        </div>
+        <div class="paquete">
+            <img src="../images/ajo.png" id="gar">
+        </div>
+        <div class="paquete">
+            <img src="../images/melonpulta.png" id="melon">
+        </div>
+        <div class="paquete">
+            <img src="../images/melonpulta_congelada.png" id="winter">
+        </div>
+        <div class="paquete">
+            <img src="../images/imitadora.png" id="mimic">
+        </div>
+    </nav>
+    <nav class="cuerpo1">
+        <p class="textoSelect" id="nombre">¡Haz click en una planta para ver su información!</p>
+        <img id="dibujo">
+        <p class="textoSelect" id="descripcion"></p>
+        <p class="textoSelect" id="datos"></p>
+        <p class="textoSelect" id="biografia"></p>
+    </nav>
+    <nav class="cuerpo2">
+        <p class="textoSelect" id="especie"></p>
+        <img id="foto">
+        <p class="textoSelect" id="biologia"></p>
+    </nav>
+    <script src="../scripts/script.js"></script>
+</body>

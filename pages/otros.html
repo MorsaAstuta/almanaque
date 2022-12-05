@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head></head>
+    <meta charset="UTF=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almanaque Suburbano</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <nav class="navegacion">
+        <div class="almanaque">
+            <p><a class="candidate" href="../index.html">Índice del<br>almanaque</a></p>
+        </div>
+        <div class="guisantes">
+            <p><a class="candidate" href="guisantes.html">Guisantes</a></p>
+        </div>
+        <div class="angiospermas">
+            <p><a class="candidate" href="angiospermas.html">Angiospermas</a></p>
+        </div>
+        <div class="hortalizas">
+            <p><a class="candidate" href="hortalizas.html">Hortalizas</a></p>
+        </div>
+        <div class="frutas">
+            <p><a class="candidate" href="frutas.html">Frutas y<br>troncos</a></p>
+        </div>
+        <div class="setas">
+            <p><a class="candidate" href="setas.html">Setas</a></p>
+        </div>
+        <div class="otros">
+            <p class="current">Otros</a></p>
+        </div>
+        <audio controls autoplay loop>
+            <source src="../sound/other.mp3" autostart="true" loop="true" hidden="true" type="audio/mp3">
+        </audio>
+    </nav>
+    <nav class="seeds">
+        <div class="paquete">
+            <img src="../images/zampalga.png" id="alga">
+        </div>
+        <div class="paquete">
+            <img src="../images/planterna.png" id="luz">
+        </div>
+        <div class="paquete">
+            <img src="../images/maceta.png" id="pot">
+        </div>
+        <div class="paquete">
+            <img src="../images/magnetoseta_dorada.png" id="iman">
+        </div>
+        <div class="paquete">
+            <img src="../images/pinchorroca.png" id="roca">
+        </div>
+    </nav>
+    <nav class="cuerpo1">
+        <p class="textoSelect" id="nombre">¡Haz click en una planta para ver su información!</p>
+        <img id="dibujo">
+        <p class="textoSelect" id="descripcion"></p>
+        <p class="textoSelect" id="datos"></p>
+        <p class="textoSelect" id="biografia"></p>
+    </nav>
+    <nav class="cuerpo2">
+        <p class="textoSelect" id="especie"></p>
+        <img id="foto">
+        <p class="textoSelect" id="biologia"></p>
+    </nav>
+    <script src="../scripts/script.js"></script>
+</body>

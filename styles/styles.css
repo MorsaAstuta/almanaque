@@ -1,0 +1,203 @@
+@font-face {
+        font-family: "myfont";
+        src: url("../fonts/mainfont.ttf");
+}
+body {
+    font-size: 140%;
+    font-family: "myfont", "Comic Sans MS", "Comic Sans";
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(235,200,150);
+    background-image: url("../images/background.png");
+    overflow: hidden;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navegacion {
+    display: flex;
+    align-items: center;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: rgb(180,135,90);
+    border: 8px ridge rgb(120,80,80);
+    background-image: url("../images/header_image.png");
+    background-size: cover;
+    z-index: 1;
+}
+.seeds {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(180,135,90);
+    border: 8px ridge rgb(120,80,80);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.current {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    height: 10vh;
+    color: rgb(150,0,0);
+}
+.candidate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    height: 10vh;
+    color: rgb(0,0,150);
+}
+a:hover {
+    color: rgb(0,150,0);
+}
+div {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 4px;
+    height: 64px;
+    width: 128px;
+}
+.almanaque {
+    background-color: rgb(200,150,100);
+    border: 8px ridge rgb(160,120,80);
+}
+.guisantes {
+    background-color: rgb(100,200,100);
+    border: 8px ridge rgb(80,160,80);
+}
+.angiospermas {
+    background-color: rgb(235,150,200);
+    border: 8px ridge rgb(188,120,160);
+}
+.hortalizas {
+    background-color: rgb(200,200,100);
+    border: 8px ridge rgb(160,160,80);
+}
+.frutas {
+    background-color: rgb(200,100,100);
+    border: 8px ridge rgb(160,80,80);
+}
+.troncos {
+    background-color: rgb(150,100,0);
+    border: 8px ridge rgb(135,80,80);
+}
+.setas {
+    background-color: rgb(200,150,235);
+    border: 8px ridge rgb(160,120,188);
+}
+.otros {
+    background-color: rgb(170,170,170);
+    border: 8px ridge rgb(120,120,120);
+}
+.cuerpo1 {
+    position: absolute;
+    padding: 4px;
+	left: 32px;
+	right: 67%;
+	bottom: 32px;
+	top: 256px;
+    overflow: auto;
+    background-color: rgb(180,135,90);
+    border: 8px ridge rgb(120,80,80);
+}
+.cuerpo2 {
+    position: absolute;
+    padding: 4px;
+	left: 34%;
+	right: 32px;
+	bottom: 32px;
+	top: 256px;
+    overflow: auto;
+    background-color: rgb(180,135,90);
+    border: 8px ridge rgb(120,80,80);
+}
+.textoSelect {
+    flex-wrap: wrap;
+}
+#nombre {
+    position: relative;
+    top: 0px;
+    font-size: 200%;
+
+}
+#dibujo {
+    display: flex;
+    border: 0px ridge rgb(120,80,80);
+    position: relative;
+    top: 0px;
+    height: 160px;
+    width: auto;
+    
+}
+#descripcion {
+    position: relative;
+    top: 0px;
+    
+}
+#biografia {
+    position: relative;
+    top: 32px;
+    
+}
+#datos {
+    position: relative;
+    top: 32px;
+    
+}
+#especie {
+    position: relative;
+    top: 0px;
+    font-size: 160%;
+    
+}
+#foto {
+    display: flex;
+    border: 0px ridge rgb(120,80,80);
+    position: relative;
+    top: 0px;
+    height: 160px;
+    width: auto;
+    
+}
+#biologia {
+    position: relative;
+    top: 0px;
+    
+}
+#guide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: auto;
+    padding: 8px;
+    background-color: rgb(180,135,90);
+    border: 8px ridge rgb(120,80,80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: -1;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.madein {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    z-index: 0;
+}
