@@ -370,7 +370,7 @@
                     biografiaVar.innerHTML = "Planterna desafía las leyes de la naturaleza. Otras plantas se alimentan de luz y sueltan oxígeno, pero Planterna come oscuridad y arroja luz. El truco de cómo lo hace: \"No es que sea \'magia\', y tampoco lo llamaría \'fuerzas oscuras\'. Bueno, creo que ya he hablado suficiente.\"";
                     especieVar.innerHTML = "Lámpara";
                     fotoVar.src = "../images/lantern.png";
-                    biologiaVar.innerHTML = "Las lámparas son dispositivos que transforman una energía eléctrica incluso química en energía lumínica. Desde un punto de vista más técnico, se distingue entre dos objetos: la lámpara es el dispositivo que produce la luz, mientras que la luminaria es el aparato que le sirve de soporte.<br><br>Según esta última definición, la luminaria es responsable del control y la distribución de la luz emitida por la lámpara. Es importante, pues, que en el diseño de su sistema óptico se cuide la forma y distribución de la luz, el rendimiento del conjunto lámpara-luminaria y el deslumbramiento que pueda provocar en los usuarios.2 Otros requisitos que deben cumplir las luminarias es que sean de fácil instalación y mantenimiento. Para ello, los materiales empleados en su construcción han de ser los adecuados para resistir el ambiente en que deba trabajar la luminaria y mantener la temperatura de la lámpara dentro de los límites de funcionamiento. Además, las luminarias que funcionan con electricidad, deben presentar una serie de características para la seguridad de los usuarios frente a los contactos eléctricos. Todo esto sin perder de vista aspectos no menos importantes como la economía o la estética.";
+                    biologiaVar.innerHTML = "Las lámparas son dispositivos que transforman una energía eléctrica incluso química en energía lumínica. Desde un punto de vista más técnico, se distingue entre dos objetos: la lámpara es el dispositivo que produce la luz, mientras que la luminaria es el aparato que le sirve de soporte.<br><br>Según esta última definición, la luminaria es responsable del control y la distribución de la luz emitida por la lámpara. Es importante, pues, que en el diseño de su sistema óptico se cuide la forma y distribución de la luz, el rendimiento del conjunto lámpara-luminaria y el deslumbramiento que pueda provocar en los usuarios. Otros requisitos que deben cumplir las luminarias es que sean de fácil instalación y mantenimiento. Para ello, los materiales empleados en su construcción han de ser los adecuados para resistir el ambiente en que deba trabajar la luminaria y mantener la temperatura de la lámpara dentro de los límites de funcionamiento. Además, las luminarias que funcionan con electricidad, deben presentar una serie de características para la seguridad de los usuarios frente a los contactos eléctricos. Todo esto sin perder de vista aspectos no menos importantes como la economía o la estética.";
                 }
             }
             if (image.id === "cacti") {
@@ -533,7 +533,7 @@
                     fotoVar.style.borderWidth = "4px";
                     nombreVar.innerHTML = "Paraplanta";
                     datosVar.innerHTML = "Especial: protege plantas de Zombis colgaos y Zombipultas<br>Precio: 100<br>Recarga: rápida";
-                    dibujoVar.src = "../images/paraplanta.png";
+                    dibujoVar.src = "../images/umbrella_leaf.gif";
                     descripcionVar.innerHTML = "La Paraplanta protege plantas cercanas de Zombis colgaos.";
                     biografiaVar.innerHTML = "\"¡POING!\", dice Paraplanta. \"¿Te ha gustado? Lo puedo repetir. ¡POING! ¡Yiii! Así soy yo, que acudo pa' proteger cosas. Sí, el tema es ese. EXACTAMENTE ese. Lo que yo te diga.\"";
                     especieVar.innerHTML = "<em>Podophyllum<em>";
@@ -620,7 +620,7 @@
                     dibujoVar.src = "../images/cattail.gif";
                     descripcionVar.innerHTML = "El Rabo de gato dispara 2 pinchos teledirigidos y revienta globos.";
                     biografiaVar.innerHTML = "\"¡Guau!\", lagra Rabo de gato. \"Grrr... ¡Guau, guau! ¿Qué? ¿Confundido? Esperabas que hiciera \'miaaau\' solo porque en mi nombre pone \'gato\'... y porque parezco un gato también. ¡Pues no! Me niego a que me encasillen de esa manera.\"";
-                    especieVar.innerHTML = "Cattail<br><em>Typha latifolia<em>";
+                    especieVar.innerHTML = "Cola de gato<br><em>Typha latifolia<em>";
                     fotoVar.src = "../images/gato.png";
                     biologiaVar.innerHTML = "La espadaña, totora, chuspata, cola de gato o tule (Typha latifolia) es una especie de planta herbácea perenne del género Typha, de la familia Typhaceae. Crece en áreas templadas subtropicales y tropicales en todos los continentes, en regiones pantanosas. Florece de mediados a fines del verano. Esta especie comparte su distribución con otras especies emparentadas, y se hibrida con Typha angustifolia, de hojas más angostas, formando Typha x glauca (Typha angustifolia x T. latifolia). Alcanza 1,5 a 3 m de altura y sus hojas 2-4 cm de ancho.";
                 }
